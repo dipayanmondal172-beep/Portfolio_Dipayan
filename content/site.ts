@@ -65,7 +65,7 @@ export const about = {
   paragraphs: [
     "I studied business twice over: a BBA at the Future Institute of Engineering and Management, then a PGDM at the Jagdish Sheth School of Management. Then I went to work inside an AI platform for insurers, and found that the most useful thing I could do was explain a technical product to someone who has to make a decision about it.",
     "At Neutrinos, that turned into two roles that usually sit with different people. In product marketing I write positioning, solution narratives and demo flows for claims, underwriting and fraud detection. In analyst relations I own the RFI submissions and present in the demo sessions, so the story I write is the one analysts actually hear.",
-    "Outside the day job I run marketing, part-time, for BlueBridge Maritime, a company that stages maritime technology forums in Athens and Rotterdam. And I run Zenwrath, an anime Instagram brand where every reel is a small experiment in hooks and formats, judged by an audience that doesn’t pretend to be interested.",
+    "Outside the day job I run marketing, part-time, for BlueBridge Maritime, a company that stages maritime technology forums in Athens, Istanbul and Rotterdam. And I run Zenwrath, an anime Instagram brand where every reel is a small experiment in hooks and formats, judged by an audience that doesn’t pretend to be interested.",
     "An enterprise analyst, a ship operator and an anime fan want very different things. Working out what each one needs to hear, and saying it plainly, is the skill underneath all three.",
   ],
 };
@@ -156,7 +156,7 @@ export const experience: Role[] = [
     location: "Independent",
     dates: null,
     summary:
-      "A content brand I started and run on my own: concept, production, analysis and brand conversations. It has grown to 32K followers at its peak and now draws 10M+ views in 30 days.",
+      "A content brand I started and run on my own: concept, production, analysis and brand conversations. It reached 32K followers at its peak, its top reel drew 8.2M views, and it now draws 10M+ views in 30 days.",
     groups: [
       {
         name: "What I do",
@@ -613,11 +613,11 @@ export const caseStudies: CaseStudy[] = [
       {
         kind: "figures",
         heading: "Where it stands",
-        note: "Views from Instagram’s professional dashboard, for a 30-day window to November 2026.",
+        note: "Monthly views from Instagram’s professional dashboard, for a 30-day window to November 2026. Peak followers and the top reel include the brand’s earlier account.",
         items: [
           { figure: "10M+", label: "views in 30 days" },
           { figure: "32K", label: "followers at the account’s peak" },
-          { figure: "1.9M", label: "views on a single reel" },
+          { figure: "8.2M", label: "views on the top reel" },
           { figure: "4", label: "inbound paid partnership invitations" },
         ],
       },
@@ -642,7 +642,7 @@ export const caseStudies: CaseStudy[] = [
         kind: "text",
         heading: "Building the audience",
         body: [
-          "I grew the account to 32K followers at its peak, with reels regularly travelling far beyond the people who follow. Shares and comments carry each reel to new fans, which is how a single post reached 1.9 million views.",
+          "I grew Zenwrath to 32K followers at its peak, with reels regularly travelling far beyond the people who follow. Shares and comments carry each reel to new fans, which is how the top reel reached 8.2 million views.",
           "That reach is what brands notice: it turned a content experiment into an account that companies approach for paid partnerships.",
         ],
       },
@@ -670,7 +670,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     demonstrates:
-      "I understand distribution from the inside: how a hook earns attention, what the numbers actually say, and the difference between reach and an audience.",
+      "I understand distribution from the inside: how a hook earns attention, how to read what the numbers say, and how to turn reach into an audience that brands want to work with.",
   },
 ];
 
