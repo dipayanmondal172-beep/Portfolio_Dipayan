@@ -22,7 +22,8 @@ export const profile = {
   // Kept off the public site on purpose (scrapers). Add a string to show it.
   phone: null as string | null,
   location: "Bangalore, India",
-  resume: "/resume/Dipayan_Mondal_Resume.pdf",
+  // When you replace the CV PDF, change the date after ?v= so browsers fetch the new file.
+  resume: "/resume/Dipayan_Mondal_Resume.pdf?v=2026-11-16",
   // Add "/images/portrait.webp" to show a photo in the About section.
   portrait: null as string | null,
 };
