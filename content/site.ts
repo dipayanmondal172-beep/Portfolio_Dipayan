@@ -131,7 +131,7 @@ export const experience: Role[] = [
     orgNote: "Maritime technology events in Athens, Istanbul and Rotterdam",
     title: "Event and digital marketing (part-time)",
     location: "Remote",
-    dates: null, // e.g. "2025 – Present"
+    dates: "Aug 2026 – Present",
     summary:
       "End-to-end marketing for a small events company, alongside my full-time role. The organiser runs the events; I run how they’re marketed.",
     groups: [
