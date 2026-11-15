@@ -29,7 +29,7 @@ export default function Evidence({ slug }: { slug: string }) {
         <Image src={c.cover.src} alt={c.cover.alt} fill sizes="(min-width: 1024px) 55vw, 100vw" className={`object-cover ${position[slug] ?? "object-top"}`} />
       </div>
       {slug === "enablement" && (
-        <span className="absolute bottom-4 left-4 rounded-full bg-ink/85 px-3 py-1.5 text-xs text-paper backdrop-blur">Blurred: internal and confidential</span>
+        <span className="absolute bottom-4 left-4 rounded-full bg-ink/85 px-3 py-1.5 text-xs text-paper backdrop-blur">Anonymised sample</span>
       )}
     </Reveal>
   );

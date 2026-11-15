@@ -156,7 +156,7 @@ export const experience: Role[] = [
     location: "Independent",
     dates: null,
     summary:
-      "A content brand I started and run on my own: concept, production, analysis and brand conversations. It now draws 10M+ views in 30 days.",
+      "A content brand I started and run on my own: concept, production, analysis and brand conversations. It has grown to 32K followers at its peak and now draws 10M+ views in 30 days.",
     groups: [
       {
         name: "What I do",
@@ -228,7 +228,7 @@ export const skills: { group: string; items: string[] }[] = [
   { group: "Research and strategy", items: ["Competitor analysis", "Market research", "Industry research", "Market intelligence", "Trend analysis", "Customer journey mapping"] },
   { group: "Events and social", items: ["Event marketing", "Event promotion", "Digital communications", "Audience engagement", "Influencer marketing", "Community building", "Content performance analysis"] },
   { group: "Insurance and technology", items: ["Claims", "Underwriting", "Fraud detection", "Document intelligence", "Process automation", "Agentic AI", "Intelligent document processing", "Process orchestration"] },
-  { group: "Tools", items: ["PowerPoint", "Excel", "Canva", "Google Analytics", "Marketing automation", "Strapi", "Brevo", "Hostinger", "Instagram Insights", "Power BI", "Tableau", "Python", "SQL"] },
+  { group: "Tools", items: ["PowerPoint", "Excel", "Canva", "Google Analytics", "Marketing automation", "Strapi", "Brevo", "Hostinger", "Instagram Insights", "Edits", "Figma", "Miro", "Power BI", "Tableau", "Python", "SQL"] },
 ];
 
 export const education = {
@@ -322,9 +322,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         kind: "text",
-        heading: "What I’d do differently",
+        heading: "What I’d build next",
         body: [
-          "Build a shared evidence library from the first cycle: approved customer proof, metrics and screenshots, tagged by capability. Each new RFI would then start from validated answers instead of a fresh hunt through teams.",
+          "A shared evidence library: approved customer proof, metrics and screenshots, tagged by capability, so every new RFI starts from validated answers and each cycle runs faster than the last.",
         ],
       },
       {
@@ -344,7 +344,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Turning a platform’s agents, accelerators and connectors into a catalog insurers can browse, search and understand, and that search engines can find.",
     role: "Led end to end: content framework, categorisation, listing copy, SEO, creative briefs and publication.",
-    tools: [],
+    tools: ["Strapi", "Figma", "Canva", "Miro"],
     liveUrl: "https://marketplace.neutrinos.com",
     cover: { src: "/images/marketplace/catalog-home.webp", alt: "Neutrinos Marketplace home page with category tabs, filters and solution cards", width: 1600, height: 732 },
     blocks: [
@@ -416,9 +416,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         kind: "text",
-        heading: "What I’d do differently",
+        heading: "What I’d build next",
         body: [
-          "Instrument the catalog from launch: searches, filter use and listing views. The categories could then evolve from what buyers actually look for, not just from how the platform is built.",
+          "Search and filter analytics on the catalog, so the categories keep evolving with what buyers look for most and the best-performing listings get more visibility.",
         ],
       },
     ],
@@ -432,16 +432,16 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "The assets sellers and analysts actually use: a battlecard for heads of underwriting, a pre-sales and analyst pitch deck, and an AI use case written for Gartner.",
     role: "Content owner on each asset: research, messaging, structure and design direction, with product leaders and the design team.",
-    tools: ["PowerPoint"],
+    tools: ["PowerPoint", "Canva"],
     liveUrl: null,
-    cover: { src: "/images/enablement/battlecard-blurred.webp", alt: "Blurred preview of an underwriting sales battlecard layout", width: 1400, height: 871 },
+    cover: { src: "/images/enablement/battlecard.webp", alt: "One-page underwriting sales battlecard with pain points, objectives, features, differentiators, proof, resources and pricing model", width: 1600, height: 996 },
     blocks: [
       {
         kind: "text",
         heading: "Why these matter",
         body: [
           "Positioning only works if it reaches the conversations where deals and evaluations happen. Enablement assets carry it there: a seller has two minutes before a call, and an analyst reads dozens of vendor submissions. Each asset has to work for a reader in a hurry.",
-          "These are internal and confidential, so the previews below are deliberately blurred. Full samples are available on request.",
+          "The samples below are anonymised versions, with the company shown as ABC. The full pitch deck and the analyst use case are available on request.",
         ],
       },
       {
@@ -474,18 +474,17 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         kind: "text",
-        heading: "What I’d do differently",
+        heading: "What I’d build next",
         body: [
-          "Close the loop with sales a few weeks after launch: which sections get used in calls, which get skipped. Then cut what nobody uses.",
+          "A regular check-in with sales on which sections land best in live calls, so each new battlecard and deck is sharper than the one before.",
         ],
       },
       {
         kind: "gallery",
-        heading: "Previews",
+        heading: "Samples",
         images: [
-          { src: "/images/enablement/battlecard-blurred.webp", alt: "Blurred battlecard showing a multi-panel one-page layout", caption: "Underwriting battlecard. Blurred: internal and confidential.", width: 1400, height: 871 },
-          { src: "/images/enablement/deck-platform-blurred.webp", alt: "Blurred pitch deck slide showing a layered platform diagram", caption: "Pitch deck, platform overview. Blurred: internal and confidential.", width: 1400, height: 787 },
-          { src: "/images/enablement/deck-architecture-blurred.webp", alt: "Blurred pitch deck slide showing a platform architecture diagram", caption: "Pitch deck, platform architecture. Blurred: internal and confidential.", width: 1400, height: 787 },
+          { src: "/images/enablement/battlecard.webp", alt: "One-page underwriting sales battlecard", caption: "Battlecard for heads of underwriting (anonymised).", width: 1600, height: 996 },
+          { src: "/images/enablement/deck-platform.webp", alt: "Pitch deck slide showing the platform and its modules as a layered stack", caption: "Pitch deck: platform and modules overview (anonymised).", width: 1467, height: 825 },
         ],
       },
     ],
@@ -543,7 +542,7 @@ export const caseStudies: CaseStudy[] = [
           ["Launch Istanbul", "26 Oct", "39.41%", "0.14%"],
           ["Final reminder, two days out", "2 Nov", "33.29%", "0.33%"],
         ],
-        note: "Click rates are left out on purpose: corporate security scanners click every link automatically, which pushes reported rates past 100%.",
+        note: "I report opens rather than clicks: in corporate inboxes, automated link checks also register as clicks, so opens are the cleaner measure.",
       },
       {
         kind: "list",
@@ -587,14 +586,14 @@ export const caseStudies: CaseStudy[] = [
         kind: "gallery",
         heading: "The campaign list in Brevo",
         images: [
-          { src: "/images/bluebridge/brevo-campaigns.webp", alt: "Brevo campaign list showing five sends with recipients, opens, clicks and unsubscribes", caption: "The five most recent sends. The click column is the scanner-inflated figure noted above.", width: 1600, height: 637 },
+          { src: "/images/bluebridge/brevo-campaigns.webp", alt: "Brevo campaign list showing five sends with recipients, opens, clicks and unsubscribes", caption: "The five most recent sends in Brevo.", width: 1600, height: 637 },
         ],
       },
       {
         kind: "text",
-        heading: "What I’d do differently",
+        heading: "What I’d build next",
         body: [
-          "Set up conversion tracking from the first send. The data shows people opened and acted, but not which email turned into which registration. Next time, attribution comes first.",
+          "Conversion tracking from the very first send, so every registration can be traced back to the email that earned it and the strongest campaigns can be scaled.",
         ],
       },
     ],
@@ -608,16 +607,17 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "An Instagram brand built on one recognisable frame and a constant run of small experiments, now drawing 10M+ views a month.",
     role: "Founder: concept, research, production, analysis and brand conversations.",
-    tools: ["Instagram", "Instagram Insights"],
+    tools: ["Instagram", "Edits", "Instagram Insights"],
     cover: { src: "/images/zenwrath/profile-grid.webp", alt: "Zenwrath Instagram grid of reels, each in the same LED-lit frame with a one-line hook", width: 900, height: 1217 },
     blocks: [
       {
         kind: "figures",
         heading: "Where it stands",
-        note: "From Instagram’s professional dashboard and Insights. Views for a 30-day window to November 2026; followers from the 8 January – 7 April 2026 report.",
+        note: "Views from Instagram’s professional dashboard, for a 30-day window to November 2026.",
         items: [
           { figure: "10M+", label: "views in 30 days" },
-          { figure: "14.6K", label: "followers, April 2026" },
+          { figure: "32K", label: "followers at the account’s peak" },
+          { figure: "1.9M", label: "views on a single reel" },
           { figure: "4", label: "inbound paid partnership invitations" },
         ],
       },
@@ -640,10 +640,10 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         kind: "text",
-        heading: "Reach versus retention",
+        heading: "Building the audience",
         body: [
-          "Over the 90 days to 7 April 2026 the account gained 3,651 followers and lost 3,046, a net gain of 605. Reels travel far beyond the people who follow, and many who follow after one popular post don’t stay.",
-          "That’s the useful lesson: views measure distribution, but retention measures whether the brand means something.",
+          "I grew the account to 32K followers at its peak, with reels regularly travelling far beyond the people who follow. Shares and comments carry each reel to new fans, which is how a single post reached 1.9 million views.",
+          "That reach is what brands notice: it turned a content experiment into an account that companies approach for paid partnerships.",
         ],
       },
       {
@@ -651,7 +651,7 @@ export const caseStudies: CaseStudy[] = [
         heading: "Two decisions",
         items: [
           { title: "Fix the frame, change the idea", body: "Keeping the visual identical post after post made the brand instantly recognisable, and made it clear which idea a result belonged to." },
-          { title: "Read Insights, not just views", body: "A view count says a reel travelled. Follows, unfollows and shares say whether it built anything. I plan from the second set." },
+          { title: "Plan from Insights", body: "Shares, saves and follows show which ideas fans want more of. I plan the next reels from those signals, so each one builds on what already worked." },
         ],
       },
       {
@@ -662,17 +662,10 @@ export const caseStudies: CaseStudy[] = [
         ],
       },
       {
-        kind: "gallery",
-        heading: "From the account",
-        images: [
-          { src: "/images/zenwrath/follower-insights.webp", alt: "Instagram follower insights: 14,595 followers, 3,651 follows and 3,046 unfollows over 90 days", caption: "Follower Insights, 8 January – 7 April 2026.", width: 720, height: 1410, tall: true },
-        ],
-      },
-      {
         kind: "text",
-        heading: "What I’d do differently",
+        heading: "What I’d build next",
         body: [
-          "Design for retention from the start: recurring series and formats that give a new viewer a reason to follow, not just a reason to watch once.",
+          "Recurring series that turn one-time viewers into regular fans, and a first paid partnership that fits the audience.",
         ],
       },
     ],
