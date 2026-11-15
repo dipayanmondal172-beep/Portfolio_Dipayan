@@ -141,6 +141,7 @@ export const experience: Role[] = [
           "Email: 42 campaigns to a list of about 7,300, plus the platform and domain setup behind them.",
           "Social media promotion and paid ads.",
           "All event design: roll-ups, banners, a 22-screen stage system, speaker invitations and a student brochure.",
+          "An investor pitch deck presenting upcoming events and investment opportunities for the business.",
           "Website change recommendations.",
           "Vendor and sponsor queries over email.",
         ],
@@ -161,9 +162,10 @@ export const experience: Role[] = [
       {
         name: "What I do",
         items: [
-          "Plan, research and produce reels and carousels.",
+          "Track anime trends and fan conversations to decide what to make next.",
+          "Script, produce and edit reels and carousels in a signature visual format.",
           "Test hooks, formats and calls to action, and read the results in Instagram Insights.",
-          "Handle inbound brand partnership requests.",
+          "Handle collaboration and partnership offers from brands.",
         ],
       },
     ],
@@ -560,6 +562,7 @@ export const caseStudies: CaseStudy[] = [
           { title: "Student access", body: "A clickable brochure offered University of the Aegean students complimentary virtual access to Athens, framed around their three fields of study." },
           { title: "Stage screens that recruit", body: "I designed a 22-screen system for the Istanbul stage: welcome, an ‘up next’ for every speaker, breaks and close. Each screen carried the free online registration link, so idle moments in the hall became sign-up prompts." },
           { title: "Print", body: "Roll-ups and main banners for Athens carrying the 28-partner logo wall, plus a reusable banner template for future editions." },
+          { title: "Investor pitch deck", body: "A deck presenting upcoming events and investment opportunities for the business, turning the event track record into a growth story for investors." },
         ],
       },
       {
@@ -618,7 +621,7 @@ export const caseStudies: CaseStudy[] = [
           { figure: "10M+", label: "views in 30 days" },
           { figure: "32K", label: "followers at the account’s peak" },
           { figure: "8.2M", label: "views on the top reel" },
-          { figure: "4", label: "inbound paid partnership invitations" },
+          { figure: "4", label: "inbound paid collaboration offers" },
         ],
       },
       {
@@ -627,6 +630,15 @@ export const caseStudies: CaseStudy[] = [
         body: [
           "Zenwrath speaks to anime fans who don’t just watch, but argue about rankings, lore and favourite moments. Every reel uses the same frame: a viewer in a room lit by fairy lights or LED glow, the scene playing on a TV, and one line of text on top.",
           "The fixed frame makes the account recognisable in a feed within a second, and it means each new reel tests one idea at a time.",
+        ],
+      },
+      {
+        kind: "list",
+        heading: "How I create",
+        items: [
+          { title: "Reading trends", body: "I follow what anime fans are watching, debating and sharing, from new episodes to long-running arguments, and pick the moments with the most conversation behind them." },
+          { title: "Making the content", body: "I script, record and edit every reel and carousel myself in Edits, keeping the signature frame so each post is recognisably Zenwrath." },
+          { title: "Timing", body: "Posting while a moment is still being talked about means the reel joins a conversation that’s already happening." },
         ],
       },
       {
@@ -656,9 +668,10 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         kind: "text",
-        heading: "Brand partnerships",
+        heading: "Collaborations and partnerships",
         body: [
-          "The account has drawn unsolicited paid partnership invitations from a self-improvement app, a car accessories brand, a streaming utility and an AI chat platform. One offer paired a flat fee with a performance bonus, which shows how brands value this kind of reach.",
+          "Zenwrath’s reach has drawn paid collaboration and partnership offers from brands across very different categories: a self-improvement app, a car accessories brand, a streaming utility and an AI chat platform.",
+          "The offers ranged from single sponsored reels made in Zenwrath’s own style to performance-based deals, including a flat fee plus a bonus tied to organic views. Each one shows brands treating the account as a channel to reach an engaged anime audience.",
         ],
       },
       {
